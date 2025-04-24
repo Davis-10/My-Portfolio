@@ -72,23 +72,23 @@
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   margin-bottom: 5px;
   color: #64ffda;
   font-weight: 700;
 }
 
 .role {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: 500;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   color: #8892b0;
 }
 
 .bio {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   line-height: 1.4;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: #a8b2d1;
 }
 

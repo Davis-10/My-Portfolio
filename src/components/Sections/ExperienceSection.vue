@@ -44,6 +44,7 @@
   .degree {
     color: #a8b2d1;
     margin-bottom: 10px;
+    font-size: 1.2rem;
   }
   </style>
   

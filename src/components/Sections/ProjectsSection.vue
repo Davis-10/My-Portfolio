@@ -113,6 +113,7 @@ h3 {
 .description {
   line-height: 1.6;
   margin-bottom: 10px;
+  font-size: 1.2rem;
 }
 
 .tech-list {
