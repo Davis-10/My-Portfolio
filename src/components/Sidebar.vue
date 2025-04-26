@@ -4,9 +4,9 @@
       <div class="sidebar-top">
            
             <h1>David Bustos</h1>
-            <p class="role">Desarrollador Frontend</p>
+            <p class="role">Desarrollador Web FullStack</p>
             <p class="bio">
-            ¡Hola! Soy un apasionado desarrollador frontend con experiencia en Vue.js y un enfoque en la
+            ¡Hola! Soy un apasionado desarrollador web FullStack con experiencia en html5, css3, JavaScript, Vue.js, python y un enfoque en la
             creación de aplicaciones web atractivas y funcionales.
             </p>
             <p class="bio">
@@ -58,7 +58,7 @@
   
   /* Parte superior */
 .sidebar-top {
-  text-align: center;
+  text-align: justify;
   margin-bottom: 20px;
 }
 

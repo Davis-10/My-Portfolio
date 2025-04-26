@@ -20,6 +20,8 @@ import Sidebar from './components/Sidebar.vue'
 
 <style>
 /* Estilos globales (fuera del scope del componente) */
+
+
 .app-layout {
   display: flex;
   justify-content: center;

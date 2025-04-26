@@ -45,6 +45,7 @@
   }
   
   p {
+    text-align: justify;
     font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 15px;

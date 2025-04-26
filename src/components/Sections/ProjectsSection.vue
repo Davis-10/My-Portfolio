@@ -1,6 +1,6 @@
 <template>
   <section id="projects">
-    <h2>Some Things I’ve Built</h2>
+    <h2>Proyectos</h2>
 
     <div class="project-item">
       <h3>FantasyRace</h3>
@@ -27,7 +27,11 @@
           CSS
         </li>
       </ul>
-      <a href="https://jolly-strudel-a6e71c.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://jolly-strudel-a6e71c.netlify.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Ver proyecto
       </a>
     </div>
@@ -58,7 +62,36 @@
           CSS3
         </li>
       </ul>
-      <a href="https://delicate-seahorse-c9fef8.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://delicate-seahorse-c9fef8.netlify.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Ver proyecto
+      </a>
+    </div>
+
+    <div class="project-item">
+      <h3>Blog de Café</h3>
+      <p class="description">
+        Este proyecto es un blog dedicado a los amantes del café, donde se
+        publican artículos sobre diferentes tipos de granos, métodos de
+        preparación y cultura cafetera. Además, cuenta con cursos especializados
+        para que los usuarios puedan ampliar sus conocimientos y habilidades en
+        el mundo del café. La página incluye también una sección de contacto
+        para facilitar la comunicación con los visitantes interesados.
+      </p>
+      <ul class="tech-list">
+        <li>
+          <font-awesome-icon :icon="['fab', 'html5']" class="tech-logo" />
+          HTML5
+        </li>
+        <li>
+          <font-awesome-icon :icon="['fab', 'css3']" class="tech-logo" />
+          CSS3
+        </li>
+      </ul>
+      <a href="https://gleaming-bavarois-256825.netlify.app/" target="_blank" rel="noopener noreferrer">
         Ver proyecto
       </a>
     </div>
@@ -82,7 +115,7 @@
           CSS3
         </li>
       </ul>
-      <a href="[Link al proyecto]" target="_blank" rel="noopener noreferrer">
+      <a href="https://sprightly-figolla-303c3a.netlify.app/jugadores" target="_blank" rel="noopener noreferrer">
         Ver proyecto
       </a>
     </div>
@@ -94,6 +127,9 @@ section {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
+}
+section p {
+  text-align: justify;
 }
 
 h2 {
@@ -135,7 +171,7 @@ h3 {
 }
 
 .tech-logo {
-  width: 20px; /* Ajusta el tamaño del logo */
+  width: 20px; 
   margin-right: 5px;
 }
 
