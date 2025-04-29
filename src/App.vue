@@ -15,26 +15,28 @@ import Sidebar from './components/Sidebar.vue'
 
 </script>
 
-<style scoped>
-</style>
-
 <style>
-/* Estilos globales (fuera del scope del componente) */
-
-
 .app-layout {
   display: flex;
-  justify-content: center;
   min-height: 100vh;
-  background: radial-gradient(ellipse at 50% 0%, #233554 0%, #0a192f 100%);
+  max-width: 1600px;
+  margin: 0 auto;
+  /* background: radial-gradient(ellipse at 50% 0%, #233554 0%, #0a192f 100%); */
 }
 
 .main-content {
   flex: 1;
-  overflow-y: auto;
-  height: 100vh;
-  padding: 40px 32px;
+  padding: 0 50px;
   color: #ccd6f6;
-  margin-left: 250px; /* Ajusta según sea necesario, el mismo valor que el ancho del sidebar */
+}
+
+@media (max-width: 768px) {
+  .app-layout {
+    flex-direction: column;
+  }
+  
+  .main-content {
+    padding: 0 20px;
+  }
 }
 </style>
