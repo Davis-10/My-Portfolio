@@ -48,9 +48,9 @@
           <a href="https://github.com/Davis-10" target="_blank" rel="noopener" aria-label="GitHub">
             <font-awesome-icon :icon="['fab', 'github']" />
           </a>
-          <a href="https://www.instagram.com/bustosdavid10" target="_blank" rel="noopener" aria-label="Instagram">
+          <!-- <a href="https://www.instagram.com/bustosdavid10" target="_blank" rel="noopener" aria-label="Instagram">
             <font-awesome-icon :icon="['fab', 'instagram']" />
-          </a>
+          </a> -->
         </div>
       </div>
     </div>
